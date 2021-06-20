@@ -2,7 +2,7 @@ import { Flex, Box, Text, Collapse } from '@chakra-ui/react'
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
 
 import { useState } from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 const MenuItem = ({ children, isLast, to = '/' }) => {
