@@ -14,6 +14,11 @@ const colors = {
   },
 }
 
-const theme = extendTheme({ colors })
+const fonts = {
+  heading: 'Playfair Display,serif',
+  body: 'Poppins,sans-serif',
+}
+
+const theme = extendTheme({ colors, fonts })
 
 export default theme

@@ -23,7 +23,7 @@ const Header = ({ brandName }) => {
 
   return (
     <Flex
-      mb={8}
+      mb={[2, 4]}
       p={8}
       as="nav"
       align="center"
@@ -52,9 +52,12 @@ const Header = ({ brandName }) => {
           pt={[4, 4, 0, 0]}
         >
           <MenuItem to="/">Home</MenuItem>
+          <MenuItem to="/blogcreate">Create</MenuItem>
           <MenuItem to="/hero">Hero</MenuItem>
           <MenuItem to="/blog">Blog</MenuItem>
-          <MenuItem to="/search">Search</MenuItem>
+          <MenuItem to="/bloggizmo" isLast>
+            GizmoBlog
+          </MenuItem>
         </Flex>
       </Box>
     </Flex>
